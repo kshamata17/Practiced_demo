@@ -1,0 +1,29 @@
+HTML
+Tags
+opening tags and closing tags
+nesting of elements
+attributes
+<tagNam attributeName = "attribute value">
+1. id
+   <p id ="First">This is first blog
+CSS
+.First{
+	colour:blue;
+	}
+<!DOCTYPE html>
+
+	<html>
+	<head>
+	<title>Title here</title>
+	</head>
+	<body>
+	Page content goes here.
+	</body>
+	</html>
+
+entities
+	&entity_name;
+		OR
+	&#entity_number;
+
+URL= Uniform Resource Locator

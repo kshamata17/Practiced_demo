@@ -1,0 +1,13 @@
+Android app development
+1.Activity
+2.Service
+3.BroadcastReceiver
+4.ContentProvder
+
+eg. Alarm
+	UI where you shall set alarm-->Activity
+	Data is save                --> ContentProvider
+	7:00 AM                     --> Service
+	Event handling 		    --> BroadcastReceiver
+
+R.java file--> used to access views from our java file
