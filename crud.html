@@ -39,13 +39,18 @@
     <main>
         <div class="container mt-5 col-9">
         <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Chapter Name" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <input type="text" class="form-control" placeholder="Chapter Name" aria-label="Recipient's username" 
+              aria-describedby="button-addon2">
             <button id = "add_btn" class="btn btn-outline-success" type="button" id="button-addon2">Add</button>
           </div>
     
 
 <ul id = "parentList" class="list-group">
-    <li class="list-group-item">Chapter 1</li>
+    <li class="list-group-item d-flex justify-content-between"> 
+      <h3 class="flex-grow-1">Chapter 1 </h3>
+      <button class="btn btn-warning mx-2"  onclick="editChapter(this)">Edit</button>
+      <button class="btn btn-danger" onclick="removeChapter(this)">Remove</button>
+    </li>
     
   </ul>
 </div>
